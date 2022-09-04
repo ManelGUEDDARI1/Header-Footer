@@ -20,9 +20,16 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+                {
+                  "glob": "*.svg",
+                  "input": "./node_modules/bootstrap-icons/",
+                  "output": "/"
+                }
+              
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -97,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5c45b50f-3ad0-4511-928c-6a2cd9859989"
   }
 }

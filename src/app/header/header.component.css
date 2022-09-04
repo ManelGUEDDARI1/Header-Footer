@@ -1,0 +1,92 @@
+
+.header {
+    position: relative;
+    background: linear-gradient(to right, #1c0dfc 13%,white, #fe3333);
+    height: 135px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.flex-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+     width: 1280px; 
+     margin:30px 30px;
+     position: absolute;
+}
+.item1 {  
+    position: absolute;
+    width: 190px;
+    height: 39.29px;
+    background-image: url("../../assets/images/placeholder1.png");
+}
+.input-group{
+    margin-left: 200px;
+}
+
+.btn1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;  
+    color: #FFFFFF;
+    width: 147px;
+    height: 45px;
+    background: #827BFA;
+    border: #FFFFFF;
+}
+input {
+    width: 407px;
+    height: 45px;
+    background: #FFFFFF;
+    border: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align:left;
+    letter-spacing: 4px;
+    padding-left: 20px;
+    color: #8F95AC;
+}
+
+.btn-default {
+    width: 50px;
+    height: 45px;
+    background: #827BFA;
+}
+.glyphicon-search{
+   color: white;
+}
+
+img {
+    margin-left: 20px;
+}
+
+.img1 {
+    width: 40px;
+    height: 40px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+p {
+    margin-top: 103px;
+    width: 253px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
